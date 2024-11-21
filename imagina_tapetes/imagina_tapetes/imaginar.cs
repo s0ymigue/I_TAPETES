@@ -1,8 +1,8 @@
 ﻿/*
  * Created by SharpDevelop.
  * User: CC2_PC35
- * Date: 20/11/2024
- * Time: 02:12 p. m.
+ * Date: 21/11/2024
+ * Time: 02:29 p. m.
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
@@ -10,14 +10,14 @@ using System;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace c_imaginar
+namespace imagina_tapetes
 {
 	/// <summary>
-	/// Description of TAPETES.
+	/// Description of imaginar.
 	/// </summary>
-	public partial class TAPETES : Form
+	public partial class imaginar : Form
 	{
-		public TAPETES()
+		public imaginar()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -28,5 +28,7 @@ namespace c_imaginar
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+
 	}
 }
