@@ -40,9 +40,9 @@ namespace imagina_tapetes
 			this.pictureBox1 = new System.Windows.Forms.PictureBox();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
-			this.pictureBox2 = new System.Windows.Forms.PictureBox();
+			this.Pbstiker = new System.Windows.Forms.PictureBox();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.Pbstiker)).BeginInit();
 			this.SuspendLayout();
 			// 
 			// pictureBox1
@@ -74,36 +74,38 @@ namespace imagina_tapetes
 			this.label2.TabIndex = 3;
 			this.label2.Text = "Presiona aqui ->";
 			// 
-			// pictureBox2
+			// Pbstiker
 			// 
-			this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-			this.pictureBox2.Location = new System.Drawing.Point(575, 391);
-			this.pictureBox2.Name = "pictureBox2";
-			this.pictureBox2.Size = new System.Drawing.Size(92, 123);
-			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-			this.pictureBox2.TabIndex = 4;
-			this.pictureBox2.TabStop = false;
-			this.pictureBox2.Click += new System.EventHandler(this.PictureBox2Click);
+			this.Pbstiker.Image = ((System.Drawing.Image)(resources.GetObject("Pbstiker.Image")));
+			this.Pbstiker.Location = new System.Drawing.Point(575, 391);
+			this.Pbstiker.Name = "Pbstiker";
+			this.Pbstiker.Size = new System.Drawing.Size(92, 123);
+			this.Pbstiker.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.Pbstiker.TabIndex = 4;
+			this.Pbstiker.TabStop = false;
+			this.Pbstiker.Click += new System.EventHandler(this.PbstikerClick);
 			// 
 			// pagina2
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-			this.ClientSize = new System.Drawing.Size(1111, 570);
-			this.Controls.Add(this.pictureBox2);
+			this.ClientSize = new System.Drawing.Size(1028, 570);
+			this.Controls.Add(this.Pbstiker);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.pictureBox1);
 			this.Name = "pagina2";
 			this.Text = "pagina2";
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.Pbstiker)).EndInit();
 			this.ResumeLayout(false);
 		}
-		private System.Windows.Forms.PictureBox pictureBox2;
+		private System.Windows.Forms.PictureBox Pbstiker;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.PictureBox pictureBox1;
+		
+
 	}
 }

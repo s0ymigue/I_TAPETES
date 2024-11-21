@@ -28,8 +28,7 @@ namespace imagina_tapetes
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
-		
-		void PictureBox2Click(object sender, EventArgs e)
+		void PbstikerClick(object sender, EventArgs e)
 		{
 			precios pre = new precios();
 			this.Hide();

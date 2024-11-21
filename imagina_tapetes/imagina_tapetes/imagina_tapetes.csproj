@@ -47,6 +47,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="final.cs" />
+    <Compile Include="final.Designer.cs">
+      <DependentUpon>final.cs</DependentUpon>
+    </Compile>
     <Compile Include="imaginar.cs" />
     <Compile Include="imaginar.Designer.cs">
       <DependentUpon>imaginar.cs</DependentUpon>

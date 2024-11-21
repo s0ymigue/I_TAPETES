@@ -37,193 +37,272 @@ namespace imagina_tapetes
 		private void InitializeComponent()
 		{
 			this.label1 = new System.Windows.Forms.Label();
-			this.textBox2 = new System.Windows.Forms.TextBox();
 			this.label2 = new System.Windows.Forms.Label();
-			this.textBox1 = new System.Windows.Forms.TextBox();
-			this.textBox3 = new System.Windows.Forms.TextBox();
-			this.textBox4 = new System.Windows.Forms.TextBox();
-			this.label3 = new System.Windows.Forms.Label();
+			this.btnacerrin = new System.Windows.Forms.Button();
+			this.lblaserrin = new System.Windows.Forms.Label();
+			this.lblcal = new System.Windows.Forms.Label();
+			this.btncal = new System.Windows.Forms.Button();
 			this.label4 = new System.Windows.Forms.Label();
-			this.textBox5 = new System.Windows.Forms.TextBox();
-			this.label5 = new System.Windows.Forms.Label();
-			this.textBox6 = new System.Windows.Forms.TextBox();
-			this.label6 = new System.Windows.Forms.Label();
-			this.textBox7 = new System.Windows.Forms.TextBox();
-			this.textBox8 = new System.Windows.Forms.TextBox();
-			this.label7 = new System.Windows.Forms.Label();
-			this.label8 = new System.Windows.Forms.Label();
+			this.lblcemi = new System.Windows.Forms.Label();
+			this.btnnatural = new System.Windows.Forms.Button();
+			this.lblflor = new System.Windows.Forms.Label();
+			this.lblherramientas = new System.Windows.Forms.Label();
+			this.btnerra = new System.Windows.Forms.Button();
+			this.label9 = new System.Windows.Forms.Label();
+			this.lblmanoo = new System.Windows.Forms.Label();
+			this.btnmano = new System.Windows.Forms.Button();
+			this.LBLMANO = new System.Windows.Forms.Label();
+			this.lbltinta = new System.Windows.Forms.Label();
+			this.btntinta = new System.Windows.Forms.Button();
+			this.btnlimpiar = new System.Windows.Forms.Button();
+			this.btnimaginar = new System.Windows.Forms.Button();
+			this.label3 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// label1
 			// 
-			this.label1.Location = new System.Drawing.Point(12, 100);
+			this.label1.Location = new System.Drawing.Point(15, 111);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(257, 30);
+			this.label1.Size = new System.Drawing.Size(65, 30);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "KILOS DE ACERRIN";
-			this.label1.Click += new System.EventHandler(this.Label1Click);
-			// 
-			// textBox2
-			// 
-			this.textBox2.Location = new System.Drawing.Point(259, 146);
-			this.textBox2.Multiline = true;
-			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(181, 132);
-			this.textBox2.TabIndex = 3;
 			// 
 			// label2
 			// 
-			this.label2.Location = new System.Drawing.Point(259, 100);
+			this.label2.Location = new System.Drawing.Point(182, 109);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(257, 30);
+			this.label2.Size = new System.Drawing.Size(85, 30);
 			this.label2.TabIndex = 2;
-			this.label2.Text = "label2";
+			this.label2.Text = "TINTA PARA ACERRIN";
 			// 
-			// textBox1
+			// btnacerrin
 			// 
-			this.textBox1.Location = new System.Drawing.Point(12, 146);
-			this.textBox1.Multiline = true;
-			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(181, 132);
-			this.textBox1.TabIndex = 4;
+			this.btnacerrin.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnacerrin.Location = new System.Drawing.Point(15, 157);
+			this.btnacerrin.Name = "btnacerrin";
+			this.btnacerrin.Size = new System.Drawing.Size(54, 56);
+			this.btnacerrin.TabIndex = 11;
+			this.btnacerrin.Text = "+";
+			this.btnacerrin.UseVisualStyleBackColor = true;
+			this.btnacerrin.Click += new System.EventHandler(this.Button1Click);
 			// 
-			// textBox3
+			// lblaserrin
 			// 
-			this.textBox3.Location = new System.Drawing.Point(30, 604);
-			this.textBox3.Multiline = true;
-			this.textBox3.Name = "textBox3";
-			this.textBox3.Size = new System.Drawing.Size(181, 132);
-			this.textBox3.TabIndex = 8;
+			this.lblaserrin.Location = new System.Drawing.Point(78, 159);
+			this.lblaserrin.Name = "lblaserrin";
+			this.lblaserrin.Size = new System.Drawing.Size(48, 53);
+			this.lblaserrin.TabIndex = 12;
+			this.lblaserrin.Text = "###";
 			// 
-			// textBox4
+			// lblcal
 			// 
-			this.textBox4.Location = new System.Drawing.Point(277, 604);
-			this.textBox4.Multiline = true;
-			this.textBox4.Name = "textBox4";
-			this.textBox4.Size = new System.Drawing.Size(181, 132);
-			this.textBox4.TabIndex = 7;
+			this.lblcal.Location = new System.Drawing.Point(425, 158);
+			this.lblcal.Name = "lblcal";
+			this.lblcal.Size = new System.Drawing.Size(41, 53);
+			this.lblcal.TabIndex = 15;
+			this.lblcal.Text = "###";
 			// 
-			// label3
+			// btncal
 			// 
-			this.label3.Location = new System.Drawing.Point(277, 558);
-			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(257, 30);
-			this.label3.TabIndex = 6;
-			this.label3.Text = "label3";
+			this.btncal.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btncal.Location = new System.Drawing.Point(362, 155);
+			this.btncal.Name = "btncal";
+			this.btncal.Size = new System.Drawing.Size(43, 56);
+			this.btncal.TabIndex = 14;
+			this.btncal.Text = "+";
+			this.btncal.UseVisualStyleBackColor = true;
+			this.btncal.Click += new System.EventHandler(this.BtncalClick);
 			// 
 			// label4
 			// 
-			this.label4.Location = new System.Drawing.Point(30, 558);
+			this.label4.Location = new System.Drawing.Point(362, 109);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(257, 30);
-			this.label4.TabIndex = 5;
-			this.label4.Text = "KILOS DE ACERRIN";
+			this.label4.Size = new System.Drawing.Size(65, 30);
+			this.label4.TabIndex = 13;
+			this.label4.Text = "ARENA O CAL";
 			// 
-			// textBox5
+			// lblcemi
 			// 
-			this.textBox5.Location = new System.Drawing.Point(504, 146);
-			this.textBox5.Multiline = true;
-			this.textBox5.Name = "textBox5";
-			this.textBox5.Size = new System.Drawing.Size(181, 132);
-			this.textBox5.TabIndex = 11;
+			this.lblcemi.Location = new System.Drawing.Point(408, 285);
+			this.lblcemi.Name = "lblcemi";
+			this.lblcemi.Size = new System.Drawing.Size(48, 58);
+			this.lblcemi.TabIndex = 18;
+			this.lblcemi.Text = "###";
 			// 
-			// label5
+			// btnnatural
 			// 
-			this.label5.Location = new System.Drawing.Point(504, 100);
-			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(257, 30);
-			this.label5.TabIndex = 10;
-			this.label5.Text = "label5";
+			this.btnnatural.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnnatural.Location = new System.Drawing.Point(362, 282);
+			this.btnnatural.Name = "btnnatural";
+			this.btnnatural.Size = new System.Drawing.Size(54, 61);
+			this.btnnatural.TabIndex = 17;
+			this.btnnatural.Text = "+";
+			this.btnnatural.UseVisualStyleBackColor = true;
+			this.btnnatural.Click += new System.EventHandler(this.BtnnaturalClick);
 			// 
-			// textBox6
+			// lblflor
 			// 
-			this.textBox6.Location = new System.Drawing.Point(504, 363);
-			this.textBox6.Multiline = true;
-			this.textBox6.Name = "textBox6";
-			this.textBox6.Size = new System.Drawing.Size(181, 132);
-			this.textBox6.TabIndex = 17;
+			this.lblflor.Location = new System.Drawing.Point(362, 232);
+			this.lblflor.Name = "lblflor";
+			this.lblflor.Size = new System.Drawing.Size(87, 30);
+			this.lblflor.TabIndex = 16;
+			this.lblflor.Text = "FLORES, CEMILLAS ETC";
 			// 
-			// label6
+			// lblherramientas
 			// 
-			this.label6.Location = new System.Drawing.Point(504, 317);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(257, 30);
-			this.label6.TabIndex = 16;
-			this.label6.Text = "label6";
+			this.lblherramientas.Location = new System.Drawing.Point(61, 287);
+			this.lblherramientas.Name = "lblherramientas";
+			this.lblherramientas.Size = new System.Drawing.Size(48, 58);
+			this.lblherramientas.TabIndex = 21;
+			this.lblherramientas.Text = "###";
 			// 
-			// textBox7
+			// btnerra
 			// 
-			this.textBox7.Location = new System.Drawing.Point(12, 363);
-			this.textBox7.Multiline = true;
-			this.textBox7.Name = "textBox7";
-			this.textBox7.Size = new System.Drawing.Size(181, 132);
-			this.textBox7.TabIndex = 15;
+			this.btnerra.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnerra.Location = new System.Drawing.Point(15, 285);
+			this.btnerra.Name = "btnerra";
+			this.btnerra.Size = new System.Drawing.Size(54, 61);
+			this.btnerra.TabIndex = 20;
+			this.btnerra.Text = "+";
+			this.btnerra.UseVisualStyleBackColor = true;
+			this.btnerra.Click += new System.EventHandler(this.BtnerraClick);
 			// 
-			// textBox8
+			// label9
 			// 
-			this.textBox8.Location = new System.Drawing.Point(259, 363);
-			this.textBox8.Multiline = true;
-			this.textBox8.Name = "textBox8";
-			this.textBox8.Size = new System.Drawing.Size(181, 132);
-			this.textBox8.TabIndex = 14;
+			this.label9.Location = new System.Drawing.Point(15, 235);
+			this.label9.Name = "label9";
+			this.label9.Size = new System.Drawing.Size(93, 30);
+			this.label9.TabIndex = 19;
+			this.label9.Text = "HERRAMIENTAS BASICAS";
 			// 
-			// label7
+			// lblmanoo
 			// 
-			this.label7.Location = new System.Drawing.Point(259, 317);
-			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(257, 30);
-			this.label7.TabIndex = 13;
-			this.label7.Text = "label7";
+			this.lblmanoo.Location = new System.Drawing.Point(228, 285);
+			this.lblmanoo.Name = "lblmanoo";
+			this.lblmanoo.Size = new System.Drawing.Size(48, 58);
+			this.lblmanoo.TabIndex = 27;
+			this.lblmanoo.Text = "###";
 			// 
-			// label8
+			// btnmano
 			// 
-			this.label8.Location = new System.Drawing.Point(12, 317);
-			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(257, 30);
-			this.label8.TabIndex = 12;
-			this.label8.Text = "KILOS DE ACERRIN";
+			this.btnmano.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnmano.Location = new System.Drawing.Point(182, 283);
+			this.btnmano.Name = "btnmano";
+			this.btnmano.Size = new System.Drawing.Size(54, 61);
+			this.btnmano.TabIndex = 26;
+			this.btnmano.Text = "+";
+			this.btnmano.UseVisualStyleBackColor = true;
+			this.btnmano.Click += new System.EventHandler(this.BtnmanoClick);
+			// 
+			// LBLMANO
+			// 
+			this.LBLMANO.Location = new System.Drawing.Point(182, 233);
+			this.LBLMANO.Name = "LBLMANO";
+			this.LBLMANO.Size = new System.Drawing.Size(65, 30);
+			this.LBLMANO.TabIndex = 25;
+			this.LBLMANO.Text = "MANO DE OBRA";
+			// 
+			// lbltinta
+			// 
+			this.lbltinta.Location = new System.Drawing.Point(237, 159);
+			this.lbltinta.Name = "lbltinta";
+			this.lbltinta.Size = new System.Drawing.Size(39, 53);
+			this.lbltinta.TabIndex = 32;
+			this.lbltinta.Text = "###";
+			// 
+			// btntinta
+			// 
+			this.btntinta.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btntinta.Location = new System.Drawing.Point(182, 157);
+			this.btntinta.Name = "btntinta";
+			this.btntinta.Size = new System.Drawing.Size(49, 56);
+			this.btntinta.TabIndex = 31;
+			this.btntinta.Text = "+";
+			this.btntinta.UseVisualStyleBackColor = true;
+			this.btntinta.Click += new System.EventHandler(this.BtntintaClick);
+			// 
+			// btnlimpiar
+			// 
+			this.btnlimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnlimpiar.Location = new System.Drawing.Point(15, 426);
+			this.btnlimpiar.Name = "btnlimpiar";
+			this.btnlimpiar.Size = new System.Drawing.Size(204, 69);
+			this.btnlimpiar.TabIndex = 33;
+			this.btnlimpiar.Text = "LIMPIAR";
+			this.btnlimpiar.UseVisualStyleBackColor = true;
+			this.btnlimpiar.Click += new System.EventHandler(this.LbllimpiarClick);
+			// 
+			// btnimaginar
+			// 
+			this.btnimaginar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnimaginar.Location = new System.Drawing.Point(262, 426);
+			this.btnimaginar.Name = "btnimaginar";
+			this.btnimaginar.Size = new System.Drawing.Size(204, 69);
+			this.btnimaginar.TabIndex = 34;
+			this.btnimaginar.Text = "IMAGINAR";
+			this.btnimaginar.UseVisualStyleBackColor = true;
+			this.btnimaginar.Click += new System.EventHandler(this.BtnimaginarClick);
+			// 
+			// label3
+			// 
+			this.label3.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label3.Location = new System.Drawing.Point(70, 23);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(357, 34);
+			this.label3.TabIndex = 35;
+			this.label3.Text = "COMIENZA A IMAGINAR";
 			// 
 			// imaginar
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1183, 881);
-			this.Controls.Add(this.textBox6);
-			this.Controls.Add(this.label6);
-			this.Controls.Add(this.textBox7);
-			this.Controls.Add(this.textBox8);
-			this.Controls.Add(this.label7);
-			this.Controls.Add(this.label8);
-			this.Controls.Add(this.textBox5);
-			this.Controls.Add(this.label5);
-			this.Controls.Add(this.textBox3);
-			this.Controls.Add(this.textBox4);
+			this.BackColor = System.Drawing.SystemColors.InactiveCaption;
+			this.ClientSize = new System.Drawing.Size(549, 534);
 			this.Controls.Add(this.label3);
+			this.Controls.Add(this.btnimaginar);
+			this.Controls.Add(this.btnlimpiar);
+			this.Controls.Add(this.lbltinta);
+			this.Controls.Add(this.btntinta);
+			this.Controls.Add(this.lblmanoo);
+			this.Controls.Add(this.btnmano);
+			this.Controls.Add(this.LBLMANO);
+			this.Controls.Add(this.lblherramientas);
+			this.Controls.Add(this.btnerra);
+			this.Controls.Add(this.label9);
+			this.Controls.Add(this.lblcemi);
+			this.Controls.Add(this.btnnatural);
+			this.Controls.Add(this.lblflor);
+			this.Controls.Add(this.lblcal);
+			this.Controls.Add(this.btncal);
 			this.Controls.Add(this.label4);
-			this.Controls.Add(this.textBox1);
-			this.Controls.Add(this.textBox2);
+			this.Controls.Add(this.lblaserrin);
+			this.Controls.Add(this.btnacerrin);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Name = "imaginar";
 			this.Text = "imaginar";
 			this.ResumeLayout(false);
-			this.PerformLayout();
 		}
-		private System.Windows.Forms.Label label8;
-		private System.Windows.Forms.TextBox textBox8;
-		private System.Windows.Forms.Label label7;
-		private System.Windows.Forms.TextBox textBox7;
-		private System.Windows.Forms.Label label6;
-		private System.Windows.Forms.TextBox textBox6;
-		private System.Windows.Forms.Label label5;
-		private System.Windows.Forms.TextBox textBox5;
-		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.TextBox textBox4;
 		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.TextBox textBox3;
+		private System.Windows.Forms.Button btnimaginar;
+		private System.Windows.Forms.Button btnlimpiar;
+		private System.Windows.Forms.Button btntinta;
+		private System.Windows.Forms.Label LBLMANO;
+		private System.Windows.Forms.Button btnmano;
+		private System.Windows.Forms.Label lblmanoo;
+		private System.Windows.Forms.Label label9;
+		private System.Windows.Forms.Button btnerra;
+		private System.Windows.Forms.Label lblherramientas;
+		private System.Windows.Forms.Label lblflor;
+		private System.Windows.Forms.Button btnnatural;
+		private System.Windows.Forms.Label lblcemi;
+		private System.Windows.Forms.Label label4;
+		private System.Windows.Forms.Button btncal;
+		private System.Windows.Forms.Label lblcal;
+		private System.Windows.Forms.Button btnacerrin;
+		private System.Windows.Forms.Label lbltinta;
+		private System.Windows.Forms.Label lblaserrin;
 		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.TextBox textBox2;
-		private System.Windows.Forms.TextBox textBox1;
 		private System.Windows.Forms.Label label1;
 	}
 }

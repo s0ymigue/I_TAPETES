@@ -65,17 +65,17 @@ namespace imagina_tapetes
 			// 
 			// label2
 			// 
-			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(15, 291);
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Location = new System.Drawing.Point(12, 291);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(1182, 391);
+			this.label2.Size = new System.Drawing.Size(1185, 359);
 			this.label2.TabIndex = 4;
 			this.label2.Text = resources.GetString("label2.Text");
 			// 
 			// button1
 			// 
 			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.Location = new System.Drawing.Point(378, 743);
+			this.button1.Location = new System.Drawing.Point(379, 650);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(329, 87);
 			this.button1.TabIndex = 5;
@@ -88,7 +88,7 @@ namespace imagina_tapetes
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-			this.ClientSize = new System.Drawing.Size(1267, 881);
+			this.ClientSize = new System.Drawing.Size(1028, 749);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);

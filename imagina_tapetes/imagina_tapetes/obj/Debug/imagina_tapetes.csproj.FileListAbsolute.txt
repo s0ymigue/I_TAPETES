@@ -7,3 +7,13 @@ C:\Users\CC2_PC35\I_TAPETES\imagina_tapetes\imagina_tapetes\obj\Debug\imagina_ta
 C:\Users\CC2_PC35\I_TAPETES\imagina_tapetes\imagina_tapetes\obj\Debug\imagina_tapetes.pdb
 C:\Users\CC2_PC35\I_TAPETES\imagina_tapetes\imagina_tapetes\obj\Debug\imagina_tapetes.pagina2.resources
 C:\Users\CC2_PC35\I_TAPETES\imagina_tapetes\imagina_tapetes\obj\Debug\imagina_tapetes.precios.resources
+C:\Users\CC1_PC07\I_TAPETES\imagina_tapetes\imagina_tapetes\obj\Debug\imagina_tapetes.csprojResolveAssemblyReference.cache
+C:\Users\CC1_PC07\I_TAPETES\imagina_tapetes\imagina_tapetes\obj\Debug\imagina_tapetes.imaginar.resources
+C:\Users\CC1_PC07\I_TAPETES\imagina_tapetes\imagina_tapetes\obj\Debug\imagina_tapetes.MainForm.resources
+C:\Users\CC1_PC07\I_TAPETES\imagina_tapetes\imagina_tapetes\obj\Debug\imagina_tapetes.pagina2.resources
+C:\Users\CC1_PC07\I_TAPETES\imagina_tapetes\imagina_tapetes\obj\Debug\imagina_tapetes.precios.resources
+C:\Users\CC1_PC07\I_TAPETES\imagina_tapetes\imagina_tapetes\obj\Debug\imagina_tapetes.csproj.GenerateResource.Cache
+C:\Users\CC1_PC07\I_TAPETES\imagina_tapetes\imagina_tapetes\obj\Debug\imagina_tapetes.exe
+C:\Users\CC1_PC07\I_TAPETES\imagina_tapetes\imagina_tapetes\bin\Debug\imagina_tapetes.exe
+C:\Users\CC1_PC07\I_TAPETES\imagina_tapetes\imagina_tapetes\bin\Debug\imagina_tapetes.pdb
+C:\Users\CC1_PC07\I_TAPETES\imagina_tapetes\imagina_tapetes\obj\Debug\imagina_tapetes.pdb
